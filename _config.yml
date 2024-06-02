@@ -1,0 +1,141 @@
+#page title
+page_title                                : Calorimeter - Track Calories Burned & Goal                                            # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+# App Info
+ios_app_id                                : 6502800890                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+
+appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                                           # Enter Google Play Store URL.
+presskit_download_link                    : http://calorimeter.app/presskit.zip                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+
+app_icon                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Calorimeter is your ultimate companion for tracking and managing your daily calorie burn. Whether you’re an athlete or just getting started on your fitness journey, Calorimeter helps you stay on top of your calorie expenditure effortlessly.           #Stay active, stay healthy.
+
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+
+
+# Information About Yourself
+your_name                                 : theo
+your_link                                 : https://twitter.com/_theedov
+your_city                                 : 🇦🇺
+email_address                             : info@calorimeter.app
+facebook_username                         :
+instagram_username                        :
+twitter_username                          : theedov
+github_username                           :
+youtube_username                          :
+
+
+
+# Feature List                            Edit, add or remove features to be presented.
+features                                  :
+
+  - title                                 : Active Calorie Tracking
+    description                           : Monitor the calories you burn through physical activity in real-time.
+    fontawesome_icon_name                 : person-running
+    
+  - title                                 : Resting Calorie Calculation
+    description                           : Keep track of the calories your body burns at rest throughout the day.
+    fontawesome_icon_name                 : bed
+
+  - title                                 : Total Calorie Overview
+    description                           : Get a comprehensive view of your total calorie expenditure with detailed charts and statistics.
+    fontawesome_icon_name                 : fire-flame-curved
+
+  - title                                 : Daily Goal Setting
+    description                           : Set your daily active calorie goal and track your progress with an intuitive progress bar.
+    fontawesome_icon_name                 : flag-checkered
+
+  - title                                 : Configurable Widgets
+    description                           : Add widgets to your home screen to see your calorie burn and goal progress at a glance.
+    fontawesome_icon_name                 : grip
+  
+  - title                                 : Insightful Graphs
+    description                           : Analyze your calorie burn trends over the day, week, month, or year with easy-to-read graphs.
+    fontawesome_icon_name                 : chart-simple
+
+#   - title                                 : Smart App Banner
+#     description                           : Display a smart app banner on iOS devices.
+#     fontawesome_icon_name                 : arrow-alt-circle-down
+
+#   - title                                 : Social Links
+#     description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
+#     fontawesome_icon_name                 : link
+
+#   - title                                 : FontAwesome Support
+#     description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
+#     fontawesome_icon_name                 : info-circle
+
+#   - title                                 : # New Feature Title
+#     description                           : # New Feature Description
+#     fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+
+
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 1.0
+topbar_title_color                        : "#ffffff"
+
+cover_image                               :                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#000000"
+cover_overlay_transparency                : 1.0
+
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+
+body_background_color                     : "#000000"
+
+link_color                                : "#FFA73F"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#ffffff"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#FFA73F"
+feature_icons_background_color            : "#141414"
+
+social_icons_foreground_color             : "#FFA73F"
+social_icons_background_color             : "#141414"
+
+footer_text_color                         : "#ffffff"
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+    
+# Markdown rendering 
+markdown: kramdown
