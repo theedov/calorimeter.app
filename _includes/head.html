@@ -5,13 +5,14 @@
 	<base target="_blank">
 
 	<title class="pageTitle">Calorimeter - Track Calories Burned & Goals</title>
-	<meta name="description" content="Calorimeter is your ultimate companion for tracking and managing your daily calorie burn. Whether you’re an athlete or just getting started on your fitness journey, Calorimeter helps you stay on top of your calorie expenditure effortlessly.">
+	<meta name="description"
+		content="Calorimeter is your ultimate companion for tracking and managing your daily calorie burn. Whether you’re an athlete or just getting started on your fitness journey, Calorimeter helps you stay on top of your calorie expenditure effortlessly.">
 
 	<link rel="shortcut icon" href="{{ site.app_icon }}">
 
 	<!-- Smart App Banner -->
 	{% if site.enable_smart_app_banner %}
-		<meta name="apple-itunes-app" content="app-id={{ site.ios_app_id }}">
+	<meta name="apple-itunes-app" content="app-id={{ site.ios_app_id }}">
 	{% endif %}
 
 	<link rel="stylesheet" href="/main.css">
@@ -19,4 +20,13 @@
 	<link rel="stylesheet" href="../main.css">
 
 	<script src="https://kit.fontawesome.com/da30d98b10.js" crossorigin="anonymous"></script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q901RKDNRC"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-Q901RKDNRC');
+	</script>
 </head>
