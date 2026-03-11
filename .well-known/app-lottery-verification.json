@@ -6,5 +6,9 @@
   {
     "bundle_id": "app.mypedometer.ios",
     "token": "7bb91b13-ec00-47cf-b827-b3468d35e04e"
+  },
+  {
+    "bundle_id": "dev.dovgopol.calcFutures",
+    "token": "059029d5-1a6e-4dfb-826f-a446a75bda09"
   }
 ]
